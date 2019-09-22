@@ -2,8 +2,6 @@
 
 #include "CommandHandler.h"
 
-#include <string>
-
 namespace SPP
 {
 
@@ -14,10 +12,11 @@ public:
     ~SpotifyClient();
 
     void handleCommand(const std::string& command);
+    bool quitCalled() const;
 
 private:
     CommandHandler commandHandler_;
-
+    bool quit_;
 };
 
 }
