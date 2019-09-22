@@ -10,7 +10,7 @@ make
 
 ##Run on linux
 ```
-cd build
+cd build/bin
 ./ssp
 ```
 
