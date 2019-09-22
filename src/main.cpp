@@ -14,9 +14,7 @@ int main(int argc, char const *argv[])
         spotifyClient.handleCommand(input);
 
         if (spotifyClient.quitCalled())
-        {
             break;
-        }
     }
     return 0;
 }
