@@ -4,6 +4,7 @@ set(INCLUDE_DIR
 
 set(HDR_FILES
     ${INCLUDE_DIR}SpotifyClient.h
+    ${INCLUDE_DIR}CommandHandler.h
 )
 
 include_directories(
@@ -13,6 +14,7 @@ include_directories(
 set(SRC_FILES
     main.cpp
     SpotifyClient.cpp
+    CommandHandler.cpp
 )
 
 add_executable(SPP
