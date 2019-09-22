@@ -1,3 +1,5 @@
+#include "SpotifyClient.h"
+
 #include <iostream>
 
 
